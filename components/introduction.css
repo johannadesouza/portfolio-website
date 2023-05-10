@@ -1,0 +1,35 @@
+.introduction-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.introduction-text {
+  font-size: 3rem;
+  font-family: Merriweather;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.introduction-text1 {
+  font-size: 18px;
+  align-self: flex-start;
+  font-family: Merriweather;
+}
+.introduction-separator {
+  width: 300px;
+  height: 2px;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+  background-color: var(--dl-color-gray-500);
+}
+.introduction-root-class-name {
+  align-self: flex-start;
+}
+@media(max-width: 1600px) {
+  .introduction-text {
+    font-family: Merriweather;
+  }
+}
+@media(max-width: 767px) {
+  .introduction-text {
+    text-align: center;
+  }
+}

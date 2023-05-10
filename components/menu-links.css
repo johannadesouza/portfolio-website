@@ -1,0 +1,47 @@
+.menu-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.menu-links-link {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Dosis;
+  font-weight: 400;
+  text-decoration: none;
+}
+.menu-links-link1 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Dosis;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.menu-links-link2 {
+  font-size: 18px;
+  font-style: normal;
+  font-family: Dosis;
+  font-weight: 400;
+  margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+
+@media(max-width: 767px) {
+  .menu-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .menu-links-link {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .menu-links-link1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .menu-links-link2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
